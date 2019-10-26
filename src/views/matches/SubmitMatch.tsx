@@ -1,14 +1,5 @@
 import React, { useState, useEffect } from "react";
-import {
-  Container,
-  Row,
-  Col,
-  Button,
-  Form,
-  FormGroup,
-  Label,
-  Input
-} from "reactstrap";
+import { Container, Row, Col, Button, Form, FormGroup, Label, Input } from "reactstrap";
 
 import { Form as FinalForm, Field } from "react-final-form";
 import { getPlayers, submitMatch, ResultResponse } from "../../libs/net";
